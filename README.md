@@ -2,6 +2,20 @@
 
 A modern, enterprise-grade web application for real-time transaction classification using transformer-based NLP models. Built with Next.js 15, React 19, and TypeScript, this platform provides a comprehensive dashboard for monitoring, managing, and analyzing machine learning models for financial transaction categorization.
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](https://github.com/user-attachments/assets/9e7653da-de39-4588-bb48-a54b8670b3e0)
+*Real-time monitoring dashboard with key metrics, charts, and model status*
+
+### Transaction Classification
+![Transactions](https://github.com/user-attachments/assets/9b5f95d3-ef14-42e5-8908-1ff978218f9b)
+*Live transaction stream with real-time NLP classification and confidence scores*
+
+### Model Registry
+![Models](https://github.com/user-attachments/assets/9c96a76d-3701-44b8-87e2-f8e41a502764)
+*Manage and monitor deployed transformer models with detailed metrics*
+
 ## 🚀 Features
 
 ### Dashboard & Monitoring
@@ -57,7 +71,7 @@ A modern, enterprise-grade web application for real-time transaction classificat
 
 Before you begin, ensure you have the following installed:
 - **Node.js**: Version 18.x or higher
-- **pnpm**: Version 8.x or higher (recommended package manager)
+- **Package Manager**: npm (comes with Node.js) or pnpm (recommended)
 
 ## 🚀 Getting Started
 
@@ -70,6 +84,13 @@ Before you begin, ensure you have the following installed:
    ```
 
 2. **Install dependencies**
+   
+   Using npm:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+   
+   Or using pnpm (recommended):
    ```bash
    pnpm install
    ```
@@ -77,6 +98,13 @@ Before you begin, ensure you have the following installed:
 ### Development
 
 Start the development server:
+
+Using npm:
+```bash
+npm run dev
+```
+
+Or using pnpm:
 ```bash
 pnpm dev
 ```
@@ -86,11 +114,25 @@ The application will be available at [http://localhost:3000](http://localhost:30
 ### Building for Production
 
 Create an optimized production build:
+
+Using npm:
+```bash
+npm run build
+```
+
+Or using pnpm:
 ```bash
 pnpm build
 ```
 
 Start the production server:
+
+Using npm:
+```bash
+npm start
+```
+
+Or using pnpm:
 ```bash
 pnpm start
 ```
@@ -98,6 +140,13 @@ pnpm start
 ### Linting
 
 Run ESLint to check code quality:
+
+Using npm:
+```bash
+npm run lint
+```
+
+Or using pnpm:
 ```bash
 pnpm lint
 ```
